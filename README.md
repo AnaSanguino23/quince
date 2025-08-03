@@ -6,7 +6,7 @@ Sitio web para la gestión y organización de un evento de quince años, pensado
 ## Estructura del proyecto
 - `index.html`: Página principal con estructura semántica y accesible.
 - `styles.css`: Archivo de estilos CSS moderno y responsivo.
-- `script.js`: Funcionalidad interactiva y animaciones.
+
 
 ## Características
 - Uso de etiquetas semánticas HTML5 (`header`, `nav`, `main`, `section`, `article`, `aside`, `footer`).
@@ -32,3 +32,4 @@ Correo de contacto: organizador@evento.com
 
 ---
 Este proyecto sigue buenas prácticas de semántica, accesibilidad y organización de archivos.
+
