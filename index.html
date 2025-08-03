@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinceañero en el Salón de Eventos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Elementos flotantes -->
+    <div class="floating-elements"></div>
+
+    <!-- Navbar con glassmorphism -->
+    <header>
+        <nav class="navbar-minimal">
+            <a href="#servicios"><i class="fas fa-star"></i> Servicios</a>
+            <a href="#gestion"><i class="fas fa-user-crown"></i> Quién soy</a>
+            <a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero principal con gradiente animado -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-title">Organizadora de Quinceañeros</span>
+                <p class="hero-desc">Haz realidad el quinceañero de tus sueños.<br>Servicios integrales para eventos inolvidables.<br>Planeación, decoración, catering, animación y más.</p>
+                <a href="#servicios" class="hero-btn">
+                    <i class="fas fa-magic"></i> Ver servicios
+                </a>
+            </div>
+        </section>
+
+        <!-- Secciones principales en grid -->
+        <div class="seccion-grande">
+            <section id="servicios" class="tareas scroll-reveal">
+                <h2><i class="fas fa-sparkles"></i> Servicios para tu Quinceañero</h2>
+                <ul>
+                    <li style="--i:1"><strong>Organización integral:</strong> Planeación, coordinación y supervisión de todo el evento.</li>
+                    <li style="--i:2"><strong>Decoración temática:</strong> Ambientación personalizada según tus gustos.</li>
+                    <li style="--i:3"><strong>Catering y banquete:</strong> Menús variados y adaptados a tus preferencias.</li>
+                    <li style="--i:4"><strong>Música y animación:</strong> DJ, grupos musicales y shows especiales.</li>
+                    <li style="--i:5"><strong>Fotografía y video:</strong> Captura profesional de cada momento.</li>
+                    <li style="--i:6"><strong>Invitaciones y papelería:</strong> Diseño y envío de invitaciones digitales o impresas.</li>
+                    <li style="--i:7"><strong>Logística y transporte:</strong> Coordinación de traslados y seguridad.</li>
+                </ul>
+            </section>
+
+            <section id="gestion" class="gestion scroll-reveal">
+                <h2><i class="fas fa-crown"></i> ¿Quién soy?</h2>
+                <article>
+                    <h3><i class="fas fa-user-tie"></i> Organizadora de eventos</h3>
+                    <ul>
+                        <li style="--i:1"><span aria-label="Nombre de la organizadora">Ana Martínez</span></li>
+                        <li style="--i:2">Experiencia: Más de 10 años creando celebraciones únicas.</li>
+                        <li style="--i:3">Equipo de apoyo: Juan Pérez, Laura Gómez y colaboradores especializados.</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3><i class="fas fa-phone-alt"></i> Contacto y asesoría</h3>
+                    <ul>
+                        <li style="--i:1">Solicita tu cotización personalizada.</li>
+                        <li style="--i:2">Agenda una reunión para conocer tu proyecto.</li>
+                        <li style="--i:3">Correo: <a href="mailto:ana.martinez@evento.com">ana.martinez@evento.com</a></li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- Sección de accesibilidad mejorada -->
+        <aside id="accesibilidad" class="scroll-reveal">
+            <div>
+                <h3><i class="fas fa-universal-access"></i> Consejos para invitados</h3>
+                <ul>
+                    <li>Si necesitas asistencia especial, comunícalo al organizador.</li>
+                    <li>El salón cuenta con rampas y acceso para personas con movilidad reducida.</li>
+                    <li>Menú disponible en formato digital y físico.</li>
+                </ul>
+            </div>
+            <div>
+                <h3><i class="fas fa-images"></i> Galería de inspiración</h3>
+                <div class="galeria">
+                    <img src="https://images.unsplash.com/photo-1694496982785-11c52c0f60b7?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Decoración de evento inclusivo" />
+                    <img src="https://images.unsplash.com/photo-1644865439228-49106cb7b601?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mesa decorada para fiesta" />
+                    <img src="https://images.unsplash.com/photo-1677840147161-49e9c1508b0b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Baile en evento" />
+                    <img src="https://plus.unsplash.com/premium_photo-1716928667406-7235368b872d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pastel de quinceañera" />
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer moderno -->
+    <footer id="contacto">
+        <p><i class="fas fa-envelope"></i> Contacto: <a href="mailto:ana.sanguino@evento.com" aria-label="Correo del organizador">ana.sanguino@evento.com</a></p>
+        <p class="accesible"><i class="fas fa-code"></i> Página creada siguiendo buenas prácticas de semántica y accesibilidad.</p>
+    </footer>
+
+    <script>
+        // Crear elementos flotantes
+        function createFloatingElements() {
+            const container = document.querySelector('.floating-elements');
+            for (let i = 0; i < 20; i++) {
+                const element = document.createElement('div');
+                element.className = 'floating-element';
+                element.style.left = Math.random() * 100 + '%';
+                element.style.animationDelay = Math.random() * 15 + 's';
+                element.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                container.appendChild(element);
+            }
+        }
+
+        // Animaciones de scroll reveal
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.scroll-reveal');
+            reveals.forEach(reveal => {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveal.getBoundingClientRect().top;
+                const elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveal.classList.add('revealed');
+                }
+            });
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.querySelector('.navbar-minimal').querySelectorAll('a').forEach(a => {
+                    a.style.color = '#2c3e50';
+                    a.style.textShadow = 'none';
+                });
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.1)';
+                header.querySelector('.navbar-minimal').querySelectorAll('a').forEach(a => {
+                    a.style.color = '#fff';
+                    a.style.textShadow = '0 2px 4px rgba(0,0,0,0.3)';
+                });
+            }
+            revealOnScroll();
+        });
+
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', () => {
+            createFloatingElements();
+            revealOnScroll();
+        });
+
+        // Gallery image click effect
+        document.querySelectorAll('.galeria img').forEach(img => {
+            img.addEventListener('click', function() {
+                // Crear overlay para vista completa
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,0,0,0.9);
+                    z-index: 10000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                `;
+                
+                const imgClone = this.cloneNode();
+                imgClone.style.cssText = `
+                    max-width: 90%;
+                    max-height: 90%;
+                    object-fit: contain;
+                    border-radius: 15px;
+                    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+                `;
+                
+                overlay.appendChild(imgClone);
+                document.body.appendChild(overlay);
+                
+                overlay.addEventListener('click', () => {
+                    document.body.removeChild(overlay);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
